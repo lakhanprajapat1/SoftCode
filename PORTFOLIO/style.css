@@ -1,0 +1,520 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+body{
+    background-color: black;
+    /* height: 2000px; */
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    height: 40px;
+    width: 100%;
+    background-color: #171515;
+    position: fixed;
+}
+
+.nams h2{
+    color: blue;
+    font-size: 2rem;
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin-right: 100px;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: ghostwhite;
+}
+
+nav ul li a:hover,
+nav .active
+{
+    color:blue;
+}
+
+/* main section */
+.info-main{
+    /* border: 2px solid white; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#nam {
+    color: blue;
+    margin-top: 10px;
+    font-size: 1.70rem;
+}
+
+
+.bg{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    /* border: 2px white; */
+}
+
+.social{
+    height: 250px;
+    width: 60px;
+    /* border: 2px solid white; */
+    margin-top:250px;
+    margin-left: 100px;
+}
+.social i{
+    font-size: 1.75rem;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.social i:hover{
+    background-color: blue;
+}
+.info{
+    /* border: 2px solid white; */
+    height: 350px;
+    width: 100%;
+    margin-top: 200px;
+    /* margin-left: 30px; */
+    display: flex;
+    flex-direction: row;
+}
+
+.iam{
+    margin: 20px;
+    margin-top: 50px;
+}
+
+.iam h1{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.image{
+    border: 10px solid blue;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+.image:hover{
+    height:220px;
+    width: 220px;
+}
+/* about section */
+.about{
+    /* border: 2px solid white; */
+    height: 400px;
+    text-align: center;
+}
+
+.about h3{
+    font-size: 2rem;
+}
+
+.aboutimg{
+    height: 200px;
+    width: 350px;
+    border: 5px solid blue;
+    background-size: cover;
+    margin-left: 200px;
+}
+
+.abouttx{
+    height: 200px;
+    width: 520px;
+    /* border: 2px solid white; */
+    margin-left: 100px;
+}
+
+.abouttx h1{
+    color: blue;
+    font-size: 1.50rem;
+    margin-top: 50px;
+    text-align: left;
+}
+
+.abouttx p{
+    text-align: left;
+}
+
+.aboutme{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+
+/* skills section */
+.skillmain{
+    /* border: 2px solid wheat; */
+    height: 700px;
+    margin-top: 100px;
+}
+
+.skill{
+    text-align: center;
+}
+
+.skill h1{
+    font-size: 2rem;
+}
+
+.skillbox{
+    /* border: 2px solid white; */
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top:50px ;
+}
+
+.skill1{
+    /* border: 2px solid palevioletred; */
+    height: 250px;
+    width: 200px;
+    background-size:cover;
+}
+
+.skillimg{
+    height: 200px;
+    width: 200px;
+    border: 3px solid blue;
+    border-radius: 20%;
+}
+
+
+
+.skillheading{
+    text-align: center;
+    font-size: 1.10rem;
+    margin-top: 15px;
+    color:blue ;
+}
+
+.skilllogo{
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.skilllogo h1{
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.skilllogo h3{
+    text-align: center;
+    /* color: blue; */
+}
+
+.HTML{
+    border: 2px solid blue;
+    height: 100PX;
+    width: 100PX;
+    background-image: url("logo-html.png");
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.CSS{
+    border: 2px solid blue;
+    height: 100PX;
+    width: 100PX;
+    background-image: url("logo-css.svg");
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.JAVASCRIPT{
+    border: 2px solid blue;
+    height: 100PX;
+    width: 100PX;
+    background-image: url("logo-js.webp");
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.PYTHON{
+    border: 2px solid blue;
+    height: 100PX;
+    width: 100PX;
+    background-image: url("logo-python.png");
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.SQL{
+    border: 2px solid blue;
+    height: 100PX;
+    width: 100PX;
+    background-image: url("logo-sql.png");
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.GIT{
+    border: 2px solid blue;
+    height: 100PX;
+    width: 100PX;
+    background-image: url("logo-git.webp");
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.JAVA{
+    border: 2px solid blue;
+    height: 100PX;
+    width: 100PX;
+    background-image: url("logo-java.png");
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.skilllogo div:hover{
+    height: 120px;
+    width: 120px;
+}
+
+
+/* projects */
+.projects{
+    /* border: 2px solid rgb(191, 61, 61); */
+    height: 700px;
+}
+.project-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    /* border:2px solid rgb(156, 24, 203); */
+    width: 80%;
+    margin-left: 130px;
+    margin-top: 60px;
+}
+
+.project-info .amazon:hover{
+    height: 350px;
+    width: 350px;
+    background-color: #0d0d0d;
+}
+
+.project-heading{
+    text-align: center;
+    font-size: 1.50rem;
+}
+
+.amazon{
+    /* border: 2px solid blue; */
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 50px;
+    /* background-color: #171515; */
+    border-radius: 15%;
+    border: 2px solid blue;
+}
+
+.headpro1 h3{
+    text-align: center;
+    font-size: 1.20rem;
+    color: blue;
+}
+
+.dispro1{
+    text-align: center;
+}
+
+.amazon-vd{
+    text-align: center;
+}
+
+/* resume */
+.resumeinfo{
+    /* border: 2px solid white; */
+    height: 700px;
+    
+}
+
+.resumeheading h1{
+    text-align: center;
+    font-size: 3rem;
+}
+
+.resumepdf{
+    height: 400px;
+    width: 400px;
+    margin-top: 40px;
+    margin-right: 0;
+    /* border: 2px solid brown; */
+}
+
+.resumedownlod button{
+    height: 40px;
+    width: 200px;
+    background-color: blue;
+    /* margin-top:200px; */
+    /* margin-left: 0px; */
+}
+
+.resumedownlod h1{
+    text-align: center;
+    margin-top: 200px;
+
+}
+.resumetittle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+/* footer */
+.fullfoot{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-form {
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 20px;
+}
+
+.contact-form h2 {
+    margin-bottom: 20px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #00bfff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #0073e6;
+}
+
+footer {
+    background-color: #171515;;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    width:100%;
+
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0px;
+    width: 500px;
+}
+
+.contact-info {
+    margin-bottom: 20px;
+}
+
+.contact-info h2 {
+    margin: 0 0 10px 0;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.contact-info a {
+    color: #00bfff;
+    text-decoration: none;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-icon {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+.social-icon:hover {
+    color: #00bfff;
+}
+
